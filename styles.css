@@ -1,0 +1,112 @@
+/* Stylesheet for external embedded CSS demo by Bruce Teter */
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+background-color: #48cae4;
+}
+
+.pagebox{
+width: 70%;
+margin: auto;
+background-color:#e3d5ca;
+min-height: 120vh;
+display:flex;
+flex-direction: column;
+}
+
+h1{
+font-size: 60px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333333;
+}
+
+li{
+float: left;
+}
+
+li a{
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+font-family: Arial, Helvetica, Sans-Serif;
+font-weight: bold;
+}
+
+li a:hover:not(.active){
+background-color: #0077b6;
+}
+
+.active{
+background-color: #e1ad01;
+}
+
+.alignright{
+float: right;
+}
+
+h2{
+color: #333333;
+padding: 15px;
+}
+
+p{
+	padding: 15px;
+}
+
+p{
+	padding: 15px;
+	width: 70%; 
+	float: right; 
+	margin-right: 20px; 
+	margin-bottom: 20px;
+}
+
+p{
+	padding: 15px;
+	width: 70%; 
+	float: right; 
+	margin-right: 20px; 
+	margin-bottom: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 60%;
+	margin: auto;
+	padding: 5px;
+}
+
+td, th{
+	border: 2px solid #333333;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+footer{
+text-align: center;
+font-style: italic;
+margin-top: auto;
+padding: 50px 0;
+}
